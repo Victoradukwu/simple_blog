@@ -4,7 +4,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
 
-def register(request):
+def register(request, *args, **kwargs):
 	if request.method == 'POST':
 		register_form = UserRegisterForm(request.POST)
 		if register_form.is_valid():
