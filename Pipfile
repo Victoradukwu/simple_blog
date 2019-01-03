@@ -13,6 +13,7 @@ django-environ = "*"
 coverage = "*"
 model-mommy = "*"
 selenium = "*"
+factory-boy = "*"
 
 [requires]
 python_version = "3.6"
