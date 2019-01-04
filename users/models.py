@@ -10,7 +10,7 @@ class Profile(models.Model):
 	def __str__(self):
 		return f'{self.user.username}\'s profile'
 
-	def save(self):
+	def save(self, *args, **kwargs):
 		'''Resizing the image uploaded. This save method overrides the inherited one'''
 		super().save()
 		img = Image.open(self.image.path)
