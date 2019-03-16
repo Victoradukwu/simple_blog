@@ -10,3 +10,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
+venv/*
+.idea/*
+__pycache__
