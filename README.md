@@ -36,7 +36,7 @@ https://dukeblog.herokuapp.com/
 ```Sh
 > $ `pip install -r requirements.txt`
 ```
-* create a .env file at you app root and populate it withb the encironment variables such as:
+* create a .env file at your app root and populate it with the environment variables such as:
 ```Sh
 DEBUG=True
 EMAIL_HOST_USER=you_gmail_account
