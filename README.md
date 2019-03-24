@@ -17,8 +17,6 @@ https://dukeblog.herokuapp.com/
 ## Technologies used
 * Python: A fast growing programming language
 * Postgres DBMS: An open-source RDBMS for storing data
-* <a href ="http://docs.sequelizejs.com/">Sequelize ORM: </a>A JavaScript-based ORM for mapping JS oject to DB tables.
-* <a href ="https://getbootstrap.com/">Bootsrap: </a>A free and open-source front-end web framework for designing web applications templates.
 * Django web framework: A fullstack Python web application framework
 * <a href ="https://jwt.io/">JSON Web Token: </a> A JSON-based standard for creating access tokens.
 * AWS S3: A cloud based file storage system from Amazon Web Services
