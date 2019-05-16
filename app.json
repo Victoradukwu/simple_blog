@@ -1,0 +1,39 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "AWS_ACCESS_KEY_ID": {
+      "required": true
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "required": true
+    },
+    "AWS_STORAGE_BUCKET_NAME": {
+      "required": true
+    },
+    "EMAIL_HOST_PASSWORD": {
+      "required": true
+    },
+    "EMAIL_HOST_USER": {
+      "required": true
+    },
+    "SECRET_KEY": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "simple_blog",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
